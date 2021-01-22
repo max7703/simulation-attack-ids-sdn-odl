@@ -1,0 +1,1 @@
+{"flow-node-inventory:flow":[{"id": "500", "priority": 2, "table_id": 0, "cookie_mask": 0, "hard-timeout": 0, "match": {"in-port": "5"}, "cookie": 500, "flags": "", "instructions": {"instruction": [{"order": 0, "apply-actions": {"action": [ {"order": 0, "output-action": {"max-length": 65535, "output-node-connector": "3"}}]}}]}, "idle-timeout": 0}]}

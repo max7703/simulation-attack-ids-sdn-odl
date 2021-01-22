@@ -1,0 +1,1 @@
+alert tcp $HOME_NET 21 -> $EXTERNAL_NET any (msg:"FTP Brute-Force attempt"; flow:from_server,established; content:"530 "; sid:1000001; rev:10;)
